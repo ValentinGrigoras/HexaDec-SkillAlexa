@@ -1,0 +1,29 @@
+{
+  "name": "hexadec",
+  "version": "0.9.0",
+  "description": "alexa utility for quickly building skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HexaDec",
+  "license": "ISC",
+  "dependencies": {
+    "@types/alexa-sdk": "^1.1.2",
+    "@types/node": "^12.0.8",
+    "@types/xml2js": "^0.4.4",
+    "alexa-sdk": "^1.0.25",
+    "ask-sdk": "^2.6.0",
+    "ask-sdk-core": "file:node_modules/ask-sdk-core",
+    "ask-sdk-model": "^1.18.0",
+    "aws-sdk": "^2.326.0",
+    "googleapis": "^39.2.0",
+    "node-pdftotext": "^1.0.4",
+    "openweather-apis": "^4.0.0",
+    "request": "^2.88.0",
+    "rss-parser": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.1"
+  }
+}
